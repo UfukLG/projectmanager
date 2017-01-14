@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="SimpleProjectManager" Logo="ExpressAppLogo">
+  <BOModel>
+    <Class Name="SimpleProjectManager.Module.BusinessObjects.Planning.Project" ImageName="BO_Lead" />
+    <Class Name="SimpleProjectManager.Module.BusinessObjects.Planning.ProjectTask" ImageName="Action_Debug_Step" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Planning">
+        <Items>
+          <Item Id="@00e12094-fe33-4e67-8877-a443c3cc37f1" Caption="Employee" ViewId="Person_LookupListView" IsNewNode="True">
+            <Items Index="" IsNewNode="True" />
+          </Item>
+          <Item Id="ProjectTask_ListView">
+            <Items Index="0" />
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
