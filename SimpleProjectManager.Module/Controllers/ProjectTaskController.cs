@@ -15,7 +15,7 @@ namespace SimpleProjectManager.Module.Controllers
         {
             TargetObjectType = typeof(ProjectTask);
             TargetViewType = ViewType.Any;
-            //tests
+            //tests 2
             SimpleAction markCompletedAction = new SimpleAction(
                 this, "MarkCompleted",
                 DevExpress.Persistent.Base.PredefinedCategory.RecordEdit)
